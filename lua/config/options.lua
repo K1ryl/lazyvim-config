@@ -3,3 +3,7 @@
 -- Add any additional options here
 -- Disable all animations controlled by the snacks.nvim plugin (including some from mini.animate)
 vim.g.snacks_animate = false
+vim.opt.winbar = "%=%m %f"
+
+-- disable hiding * markup for bold and italic, but not markers with substitutions
+vim.opt.conceallevel = 0
